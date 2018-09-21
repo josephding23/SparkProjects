@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.xsl linguist-language=Scala
+*.css linguist-language=Scala
