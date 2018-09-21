@@ -56,7 +56,8 @@
           <entry key="project.open.time.112" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -124,7 +125,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ExtractTraits.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="209">
               <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -141,6 +142,9 @@
         <option value="Scala Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -170,6 +174,7 @@
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -327,6 +332,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3074915340782" />
         <entry key="$PROJECT_DIR$/build.sbt" value="126569061" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="249398541" />
       </map>
@@ -350,6 +356,7 @@
       <workItem from="1537433034483" duration="7093000" />
       <workItem from="1537451458359" duration="4024000" />
       <workItem from="1537482005574" duration="4318000" />
+      <workItem from="1537490873770" duration="203000" />
     </task>
     <servers />
   </component>
@@ -358,8 +365,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49636805" visible="true" weight="0.20877458" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49636805" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" sideWeight="0.50363195" side_tool="true" weight="0.20574887" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -409,6 +417,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/breeze-vim_Test.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -426,16 +441,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ExtractTraits.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="209">
           <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
