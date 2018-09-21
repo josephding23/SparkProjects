@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 *.xsl linguist-language=Scala
 *.css linguist-language=Scala
+=======
+# Auto detect text files and perform LF normalization
+*.xml linguist-language=Scala
+*.css linguist-language=Scala
+>>>>>>> 994b4d6d16b2fd135368c84c719e93ea02120c2a

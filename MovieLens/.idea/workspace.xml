@@ -52,7 +52,7 @@
     <session id="-1335395176">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.112" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.59" value="1" />
@@ -237,9 +237,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,16 +356,15 @@
       <workItem from="1537433034483" duration="7093000" />
       <workItem from="1537451458359" duration="4024000" />
       <workItem from="1537482005574" duration="4318000" />
-      <workItem from="1537490873770" duration="203000" />
+      <workItem from="1537490873770" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15435000" />
+    <option name="totallyTimeSpent" value="16037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49636805" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" sideWeight="0.50363195" side_tool="true" weight="0.20574887" />
