@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MovieLens.iml" filepath="$PROJECT_DIR$/.idea/modules/MovieLens.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/movielens-build.iml" filepath="$PROJECT_DIR$/.idea/modules/movielens-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MovieLens.iml" filepath="$PROJECT_DIR$/.idea/MovieLens.iml" />
     </modules>
   </component>
 </project>
