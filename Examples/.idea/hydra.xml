@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HydraSettings">
+    <option name="hydraStorePath" value="D:\spark-2.3.1-bin-hadoop2.7\examples\src\main\scala\org\apache\spark\examples\.hydra\idea" />
+    <option name="noOfCores" value="2" />
+    <option name="projectRoot" value="D:\spark-2.3.1-bin-hadoop2.7\examples\src\main\scala\org\apache\spark\examples" />
+    <option name="sourcePartitioner" value="auto" />
+  </component>
+</project>

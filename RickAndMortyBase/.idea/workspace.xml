@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c40019a4-3db8-4156-aa16-88a18816a4ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__antlr_antlr_2_7_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__com_googlecode_javaewah_JavaEWAH_0_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__com_jolbox_bonecp_0_8_0_RELEASE_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__com_twitter_parquet_hadoop_bundle_1_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__commons_dbcp_commons_dbcp_1_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__commons_pool_commons_pool_1_5_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__javax_jdo_jdo_api_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__javax_transaction_jta_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__javolution_javolution_5_5_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__junit_junit_4_8_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__log4j_apache_log4j_extras_1_2_17_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__net_hydromatic_eigenbase_properties_1_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_antlr_ST4_4_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_antlr_antlr_runtime_3_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_antlr_stringtemplate_3_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_calcite_calcite_avatica_1_2_0_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_calcite_calcite_core_1_2_0_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_calcite_calcite_linq4j_1_2_0_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_derby_derby_10_12_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_spark_spark_hive_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_thrift_libfb303_0_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_thrift_libthrift_0_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_datanucleus_datanucleus_api_jdo_3_2_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_datanucleus_datanucleus_core_3_2_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_datanucleus_datanucleus_rdbms_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_iq80_snappy_snappy_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_jodd_jodd_core_3_5_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_spark_project_hive_hive_exec_1_2_1_spark2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_spark_project_hive_hive_metastore_1_2_1_spark2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__stax_stax_api_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseClustering.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseLSMV.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseStatistics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/DoctorateTableHive.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/manip/BasicDataManipulation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/manip/SQLManipulation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/rdd/AdultBaseDecisionTree.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/rdd/AdultBaseKMean.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdultBase/src/test/scala/MainGuide.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/jars.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_carrotsearch_hppc_0_7_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_chuusai_shapeless_2_11_2_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_clearspring_analytics_stream_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_esotericsoftware_kryo_shaded_3_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_esotericsoftware_minlog_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_7_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_7_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_github_luben_zstd_jni_1_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_google_code_gson_gson_2_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_google_guava_guava_11_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_google_inject_guice_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_google_protobuf_protobuf_java_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_jamesmurty_utils_java_xmlbuilder_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_ning_compress_lzf_1_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_twitter_chill_2_11_0_8_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_twitter_chill_java_0_8_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_univocity_univocity_parsers_2_5_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__com_vlkan_flatbuffers_1_2_0_3f79e055_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__commons_beanutils_commons_beanutils_1_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__commons_beanutils_commons_beanutils_core_1_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__commons_cli_commons_cli_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__commons_codec_commons_codec_1_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__commons_collections_commons_collections_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__commons_configuration_commons_configuration_1_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__commons_digester_commons_digester_1_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__commons_httpclient_commons_httpclient_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__commons_io_commons_io_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__commons_lang_commons_lang_2_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__commons_net_commons_net_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__io_airlift_aircompressor_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__io_netty_netty_3_9_9_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__io_netty_netty_all_4_1_17_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__javax_activation_activation_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__javax_annotation_javax_annotation_api_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__javax_servlet_javax_servlet_api_3_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__javax_validation_validation_api_1_1_0_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__javax_ws_rs_javax_ws_rs_api_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__javax_xml_bind_jaxb_api_2_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__javax_xml_stream_stax_api_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__jline_jline_0_9_94_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__joda_time_joda_time_2_9_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__log4j_log4j_1_2_17_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__net_iharder_base64_2_3_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__net_java_dev_jets3t_jets3t_0_9_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__net_razorvine_pyrolite_4_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__net_sf_py4j_py4j_0_10_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_antlr_antlr4_runtime_4_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_arrow_arrow_format_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_arrow_arrow_memory_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_arrow_arrow_vector_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_avro_avro_1_7_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_commons_commons_compress_1_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_commons_commons_crypto_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_commons_commons_math3_3_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_curator_curator_client_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_curator_curator_framework_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_directory_api_api_asn1_api_1_0_0_M20_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_directory_api_api_util_1_0_0_M20_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_directory_server_apacheds_i18n_2_0_0_M15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_ivy_ivy_2_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_orc_orc_core_1_4_4_nohive_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_orc_orc_mapreduce_1_4_4_nohive_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_parquet_parquet_column_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_parquet_parquet_common_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_parquet_parquet_encoding_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_parquet_parquet_format_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_parquet_parquet_hadoop_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_parquet_parquet_jackson_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_graphx_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_kvstore_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_mllib_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_mllib_local_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_sketch_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_sql_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_streaming_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_tags_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_bouncycastle_bcprov_jdk15on_1_52_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_codehaus_jackson_jackson_jaxrs_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_codehaus_jackson_jackson_xc_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_codehaus_janino_commons_compiler_3_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_codehaus_janino_janino_3_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_codehaus_jettison_jettison_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_hk2_external_javax_inject_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_hk2_hk2_api_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_hk2_hk2_locator_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_hk2_hk2_utils_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_hk2_osgi_resource_locator_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_client_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_common_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_server_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_htrace_htrace_core_3_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_javassist_javassist_3_18_1_GA_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_json4s_json4s_ast_2_11_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_json4s_json4s_core_2_11_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_json4s_json4s_jackson_2_11_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_lz4_lz4_java_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_objenesis_objenesis_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_scala_lang_scalap_2_11_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_13_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_slf4j_jcl_over_slf4j_1_7_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_slf4j_jul_to_slf4j_1_7_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_7_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_spark_project_spark_unused_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_spire_math_spire_2_11_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_spire_math_spire_macros_2_11_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_tukaani_xz_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_typelevel_machinist_2_11_0_6_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_typelevel_macro_compat_2_11_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_2_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__oro_oro_2_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__xerces_xercesImpl_2_9_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__xml_apis_xml_apis_1_3_04_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__xmlenc_xmlenc_0_52_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/modules/audioscrobbler-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AudioScrobbler/src/main/scala/ScrobblerRating.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CovType/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CovType/.idea/libraries/activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CovType/.idea/libraries/jars.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CovType/.idea/modules/covtype-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CovType/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CovType/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examples/.idea/libraries/jars.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examples/.idea/modules/examples-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examples/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examples/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/jars.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_carrotsearch_hppc_0_7_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_chuusai_shapeless_2_11_2_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_clearspring_analytics_stream_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_esotericsoftware_kryo_shaded_3_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_esotericsoftware_minlog_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_7_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_7_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_github_luben_zstd_jni_1_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_google_code_gson_gson_2_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_google_guava_guava_11_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_google_inject_guice_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_google_protobuf_protobuf_java_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_jamesmurty_utils_java_xmlbuilder_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_ning_compress_lzf_1_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_twitter_chill_2_11_0_8_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_twitter_chill_java_0_8_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_univocity_univocity_parsers_2_5_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__com_vlkan_flatbuffers_1_2_0_3f79e055_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__commons_beanutils_commons_beanutils_1_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__commons_beanutils_commons_beanutils_core_1_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__commons_cli_commons_cli_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__commons_codec_commons_codec_1_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__commons_collections_commons_collections_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__commons_configuration_commons_configuration_1_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__commons_digester_commons_digester_1_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__commons_httpclient_commons_httpclient_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__commons_io_commons_io_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__commons_lang_commons_lang_2_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__commons_net_commons_net_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__io_airlift_aircompressor_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__io_netty_netty_3_9_9_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__io_netty_netty_all_4_1_17_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__javax_activation_activation_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__javax_annotation_javax_annotation_api_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__javax_servlet_javax_servlet_api_3_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__javax_validation_validation_api_1_1_0_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__javax_ws_rs_javax_ws_rs_api_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__javax_xml_bind_jaxb_api_2_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__javax_xml_stream_stax_api_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__jline_jline_0_9_94_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__joda_time_joda_time_2_9_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__log4j_log4j_1_2_17_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__net_iharder_base64_2_3_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__net_java_dev_jets3t_jets3t_0_9_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__net_razorvine_pyrolite_4_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__net_sf_py4j_py4j_0_10_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_antlr_antlr4_runtime_4_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_arrow_arrow_format_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_arrow_arrow_memory_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_arrow_arrow_vector_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_avro_avro_1_7_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_commons_commons_compress_1_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_commons_commons_crypto_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_commons_commons_math3_3_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_curator_curator_client_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_curator_curator_framework_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_directory_api_api_asn1_api_1_0_0_M20_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_directory_api_api_util_1_0_0_M20_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_directory_server_apacheds_i18n_2_0_0_M15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_ivy_ivy_2_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_orc_orc_core_1_4_4_nohive_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_orc_orc_mapreduce_1_4_4_nohive_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_parquet_parquet_column_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_parquet_parquet_common_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_parquet_parquet_encoding_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_parquet_parquet_format_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_parquet_parquet_hadoop_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_parquet_parquet_jackson_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_graphx_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_kvstore_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_mllib_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_mllib_local_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_sketch_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_sql_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_streaming_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_tags_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_bouncycastle_bcprov_jdk15on_1_52_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_codehaus_jackson_jackson_jaxrs_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_codehaus_jackson_jackson_xc_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_codehaus_janino_commons_compiler_3_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_codehaus_janino_janino_3_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_codehaus_jettison_jettison_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_hk2_external_javax_inject_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_hk2_hk2_api_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_hk2_hk2_locator_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_hk2_hk2_utils_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_hk2_osgi_resource_locator_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_client_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_common_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_server_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_htrace_htrace_core_3_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_javassist_javassist_3_18_1_GA_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_json4s_json4s_ast_2_11_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_json4s_json4s_core_2_11_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_json4s_json4s_jackson_2_11_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_lz4_lz4_java_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_objenesis_objenesis_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_scala_lang_scalap_2_11_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_13_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_13_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_slf4j_jcl_over_slf4j_1_7_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_slf4j_jul_to_slf4j_1_7_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_7_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_spark_project_spark_unused_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_spire_math_spire_2_11_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_spire_math_spire_macros_2_11_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_tukaani_xz_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_typelevel_machinist_2_11_0_6_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_typelevel_macro_compat_2_11_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_2_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__oro_oro_2_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__xerces_xercesImpl_2_9_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__xml_apis_xml_apis_1_3_04_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/libraries/sbt__xmlenc_xmlenc_0_52_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/modules/networkintrusion-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkIntrusion/src/main/scala/NetworkIntrusion.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jars.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/rickandmortybase-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/rick-and-morty-data/characters.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/rick-and-morty-data/episodes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/rick-and-morty-data/locations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/RickAndMorty/Statistics/CharacterStatistics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WikipediaLSA/.idea/libraries/jars.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WikipediaLSA/.idea/modules/wikipedialsa-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WikipediaLSA/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__bouncycastle_bcmail_jdk14_138_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__bouncycastle_bcprov_jdk14_138_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__com_lowagie_itext_2_1_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__commons_logging_commons_logging_1_0_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__jfree_jcommon_1_0_16_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__jfree_jfreechart_1_0_13_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_apache_xmlgraphics_xmlgraphics_commons_1_3_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/libraries/sbt__org_scalanlp_breeze_viz_2_11_0_13_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AudioScrobbler/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_13_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/modules/AdultBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/.idea/modules/AdultBase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/data/doc_marriage_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CovType/src/main/scala/Covtype.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/data/machine-learning-databases/adult.names" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/data/machine-learning-databases/adult.names" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/data/marriage_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/graphs/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/config-classes/$3e542944889ef2bedb10.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/config-classes/$64af70f769c1635f582b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/default/adultbase-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/default/adultbase-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/default/adultbase-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/default/adultbase-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/default/adultbase$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/default/adultbase$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/default/adultbase$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/default/adultbase$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/default/adultbase_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/default/adultbase_2.11/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/default/adultbase_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/default/adultbase_2.11/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBaseWithPy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBaseWithPy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RickAndMorty/src/main/scala/BasicStatistics.scala" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1495115329">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="3" />
+          <entry key="sbt" value="1" />
+          <entry key="scala" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="3" />
+          <entry key="Scala" value="3" />
+          <entry key="sbt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="csv" value="1" />
+          <entry key="sbt" value="1" />
+          <entry key="scala" value="828" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSV" value="1" />
+          <entry key="Scala" value="828" />
+          <entry key="sbt" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/RickAndMorty/Statistics/CharacterStatistics.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <folding>
+                <element signature="e#33#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/rick-and-morty-data/locations.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/spark-2.3.1-bin-hadoop2.7/examples/src/main/scala/org/apache/spark/examples/sql/SQLDataSourceExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/rick-and-morty-data/characters.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="59" selection-start-column="59" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/rick-and-morty-data/episodes.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Script" />
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/Statistics/CharacterStatistics.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/RickAndMorty/CharacterStatistics.scala" />
+        <option value="$PROJECT_DIR$/data/rick-and-morty-data/characters.csv" />
+        <option value="$PROJECT_DIR$/src/main/scala/RickAndMorty/Statistics/CharacterStatistics.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="y" value="30" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RickAndMortyBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RickAndMortyBase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RickAndMortyBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RickAndMortyBase" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RickAndMortyBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RickAndMortyBase" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="rick-and-morty-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RickAndMortyBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RickAndMortyBase" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RickAndMortyBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RickAndMortyBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RickAndMortyBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RickAndMortyBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RickAndMortyBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RickAndMortyBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RickAndMortyBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RickAndMortyBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="Statistics" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539186124926" />
+    <property name="last_opened_file_path" value="D:/spark-2.3.1-bin-hadoop2.7/examples/src/main/scala/org/apache/spark/examples/sql/SQLDataSourceExample.scala" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SparkProjects\RickAndMortyBase\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CharacterStatistics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="RickAndMorty.Statistics.CharacterStatistics" />
+      <module name="RickAndMorty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RickAndMorty.Statistics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CharacterStatistics" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="RickAndMorty" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="rickandmortybase [file:/D:/SparkProjects/RickAndMortyBase/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="rickandmortybase-build [file:/D:/SparkProjects/RickAndMortyBase/]" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3078193973691" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3878890165" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2428047534" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="E:/Downloads/akka-quickstart-scala" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c40019a4-3db8-4156-aa16-88a18816a4ce" name="Default Changelist" comment="" />
+      <created>1539096752878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539096752878</updated>
+      <workItem from="1539096819751" duration="1578000" />
+      <workItem from="1539175382739" duration="6394000" />
+      <workItem from="1539186119542" duration="194000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8166000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Learn" order="7" weight="0.32980332" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32921174" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="sbt" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/RickAndMorty/CharacterStatistics.scala" />
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rick-and-morty-data/locations.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/spark-2.3.1-bin-hadoop2.7/examples/src/main/scala/org/apache/spark/examples/sql/SQLDataSourceExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rick-and-morty-data/characters.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="59" selection-start-column="59" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rick-and-morty-data/episodes.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/RickAndMorty/Statistics/CharacterStatistics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#33#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RickAndMortyBase</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jars</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
