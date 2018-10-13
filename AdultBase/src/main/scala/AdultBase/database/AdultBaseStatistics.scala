@@ -1,23 +1,13 @@
 package AdultBase.database
 
-import AdultBase.manip
 import java.text.NumberFormat
 
+import breeze.plot._
+import AdultBase.database.AdultBaseFileOperation._
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.ml.Pipeline
-import org.apache.spark.ml.feature.{IndexToString, StringIndexer}
 import org.apache.spark.sql.SparkSession
 
 object  AdultBaseStatistics {
-  case class Adult (
-                     age: Int, workclass: String, fnlwgt: Int,
-                     education: String, education_num: Int,
-                     maritial_status: String, occupation: String,
-                     relationship: String, race: String,
-                     sex: String, capital_gain: Int, capital_loss: Int,
-                     hours_per_week: Int, native_country: String
-                   )
-
 
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org.apache.spark").setLevel(Level.WARN)
@@ -33,28 +23,32 @@ object  AdultBaseStatistics {
 
     import spark.implicits._
 
-    val df_training = spark.sparkContext
-        .textFile("./data/machine-learning-databases/adult.data")
-        .map(fields => fields.split(", ")).filter(lines => lines.length == 15)
-        .map(attributes =>
-          Adult(attributes(0).toInt, attributes(1), attributes(2).toInt, attributes(3), attributes(4).toInt,
-            attributes(5), attributes(6), attributes(7), attributes(8), attributes(9), attributes(10).toInt,
-            attributes(11).toInt, attributes(12).toInt, attributes(13))
-        ).toDF()
+    val df_training = spark.read.format("csv")
+      .option("sep", ",")
+      .option("header", "true")
+      .schema(getAdultSchema)
+      .load("./data/adult_training")
+      .persist()
 
-    val df_test = spark.sparkContext
-      .textFile("./data/machine-learning-databases/adult.data")
-      .map(fields => fields.split(", ")).filter(lines => lines.length == 15)
-      .map(attributes =>
-        Adult(attributes(0).toInt, attributes(1), attributes(2).toInt, attributes(3), attributes(4).toInt,
-          attributes(5), attributes(6), attributes(7), attributes(8), attributes(9), attributes(10).toInt,
-          attributes(11).toInt, attributes(12).toInt, attributes(13))
-      ).toDF()
+    val df_indexed = spark.read.format("csv")
+      .option("sep", ",")
+      .option("header", "true")
+      .schema(getAdultIndexSchema)
+      .load("./data/indexed_adult_training")
+      .persist()
+
+    val df_indexed_withInfo = spark.read.format("csv")
+      .option("sep", ",")
+      .option("header", "true")
+      .schema(getAdultIndexWithInfoSchema)
+      .load("./data/indexed_adult_training_withInfo")
+      .persist()
+
+    df_indexed_withInfo.show()
+    df_indexed_withInfo.select("workclass", "workclassIndex")
+      .distinct().orderBy("workclassIndex").show()
 
 
-    df_training.write.format("csv").option("header", "true").save("./data/adult_training")
-    df_test.write.format("csv").option("header", "true").save("./data/adult_test")
-    
     df_training.printSchema()
     println(df_training.count())
     df_training.show(8)
@@ -63,6 +57,9 @@ object  AdultBaseStatistics {
     println(elderly_data.count())
     elderly_data.show(8)
     df_training.filter($"race" === "Other").show(8)
+
+    val race_data = df_indexed.select("raceIndex").collect().map(fields => fields(0).toString.toDouble)
+    val marriage_data = df_indexed.select("maritial_statusIndex").collect().map(fields => fields(0).toString.toDouble.toInt)
 
     df_training.groupBy($"race").count().orderBy("count").show()
     df_training.groupBy($"education").count().orderBy("count").show()
@@ -77,7 +74,7 @@ object  AdultBaseStatistics {
     df_training.write.bucketBy(5, "race").sortBy("age").saveAsTable("race_age_table")
     spark.sql("SELECT * FROM race_age_table").show(8)
 
-    val total_divorce_rate: Double = df_training.filter($"maritial_status" === "Divorced").count.toDouble/
+    val total_divorce_rate: Double = df_training.filter($"maritial_status" === "Divorced").count.toDouble /
       df_training.count.toDouble
     val doc_divorce_rate: Double = df_training.
       filter($"education" === "Doctorate" and $"maritial_status" === "Divorced").count.toDouble /
@@ -95,14 +92,9 @@ object  AdultBaseStatistics {
     println("High School graduation divorce rate: " + format.format(HS_divorce_rate))
     println("Total divorce rate: " + format.format(total_divorce_rate))
 
-    df_training.write
-      .partitionBy("workclass")
-      .bucketBy(6, "relationship")
-      .saveAsTable("workclass_relationship_table")
-
-    df_training.filter($"education" === "Doctorate")
-      .select($"maritial_status", $"fnlwgt", $"sex", $"occupation", $"education")
-      .write.csv("./data/doctorates_marriage_occupation_data")
-
+    val figure = Figure()
+    val p0 = figure.subplot(0)
+    p0 += hist (marriage_data)
+    p0.title_=("Marriage")
   }
 }

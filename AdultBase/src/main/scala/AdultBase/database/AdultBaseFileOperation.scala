@@ -16,11 +16,23 @@ object AdultBaseFileOperation {
                      sex: String, capital_gain: Int, capital_loss: Int,
                      hours_per_week: Int, native_country: String)
 
-  case class AdultIndexed (age: Int, workclassIndex: Double, fnlwgt: Int,
+  case class AdultIndexed (age: Int, workclassIndex: Double,
                            educationIndex: Double, maritial_statusIndex: Double,
                            occupationIndex: Double, relationshipIndex: Double,
                            raceIndex: Double, sexIndex: Double,
                            native_countryIndex: Double)
+
+  case class AdultIndexedInfo(age:Int, workclass: String, fnlwgt: Int,
+                              education: String, education_num: Int,
+                              maritial_status: String, occupation: String,
+                              relationship: String, race: String,
+                              sex: String, capital_gain: Int, capital_loss: Int,
+                              hours_per_week: Int, native_country: String,
+                              workclassIndex: Double,
+                              educationIndex: Double, maritial_statusIndex: Double,
+                              occupationIndex: Double, relationshipIndex: Double,
+                              raceIndex: Double, sexIndex: Double,
+                              native_countryIndex: Double)
 
   def getTrainingData: DataFrame = {
     val spark = SparkSession
@@ -68,6 +80,9 @@ object AdultBaseFileOperation {
 
   def getAdultIndexSchema: StructType = Encoders.product[AdultIndexed].schema
 
+  def getAdultIndexWithInfoSchema: StructType = Encoders.product[AdultIndexedInfo].schema
+
+
   def getWorkclassIndexer: StringIndexer = new StringIndexer()
     .setInputCol("workclass").setOutputCol("workclassIndex").setHandleInvalid("keep")
     .setStringOrderType("frequencyAsc")
@@ -93,7 +108,7 @@ object AdultBaseFileOperation {
     .setStringOrderType("frequencyAsc")
 
   def getSexIndexer: StringIndexer = new StringIndexer()
-    .setInputCol("sex").setOutputCol("sexIndex").setHandleInvalid("skip")
+    .setInputCol("sex").setOutputCol("sexIndex").setHandleInvalid("keep")
     .setStringOrderType("frequencyAsc")
 
   def getNativeIndexer: StringIndexer =  new StringIndexer()
@@ -151,27 +166,49 @@ object AdultBaseFileOperation {
       .select("age", "workclassIndex", "fnlwgt", "educationIndex", "maritial_statusIndex",
         "occupationIndex", "relationshipIndex", "raceIndex", "sexIndex", "native_countryIndex")
 
-    /*
+    val indexed_df_training_withInfo = getIndexerPipline.fit(df_training).transform(df_training)
+    val indexed_df_test_withInfo = getIndexerPipline.fit(df_training).transform(df_training)
+
+
     df_training.write.format("csv")
       .option("header", "true")
       .option("sep", ",")
+      .option("nanValue", "unknown")
+      .mode("ignore")
       .save("./data/adult_training")
 
     df_test.write.format("csv")
       .option("header", "true")
       .option("sep", ",")
+      .option("nanValue", "unknown")
+      .mode("ignore")
       .save("./data/adult_test")
-      */
+
 
     indexed_df_training.write.format("csv")
       .option("header", "true")
       .option("sep", ",")
+      .mode("ignore")
       .save("./data/indexed_adult_training")
 
     indexed_df_test.write.format("csv")
       .option("header", "true")
       .option("sep", ",")
+      .mode("ignore")
       .save("./data/indexed_adult_test")
 
+    indexed_df_training_withInfo.write.format("csv")
+      .option("header", "true")
+      .option("sep", ",")
+      .option("nanValue", "unknown")
+      .mode("ignore")
+      .save("./data/indexed_adult_training_withInfo")
+
+    indexed_df_test_withInfo.write.format("csv")
+      .option("header", "true")
+      .option("sep", ",")
+      .option("nanValue", "unknown")
+      .mode("ignore")
+      .save("./data/indexed_adult_test_withInfo")
   }
 }

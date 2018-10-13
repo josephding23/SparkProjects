@@ -4,7 +4,7 @@
 		module="adultbase_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20181008204009"
+		publication="20181011215928"
 	>
 		<description>
 		AdultBase
@@ -37,5 +37,6 @@
 		<dependency org="org.apache.spark" name="spark-mllib-local_2.11" rev="2.3.1" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-hive_2.11" rev="2.3.1" conf="compile->default(compile)"/>
 		<dependency org="org.scalanlp" name="breeze_2.11" rev="0.13.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze-viz_2.11" rev="1.0-RC2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

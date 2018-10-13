@@ -2,7 +2,7 @@ package AdultBase.database
 
 import AdultBase.database.AdultBaseFileOperation._
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.ml.classification.{LinearSVC, LinearSVCModel}
+import org.apache.spark.ml.classification.LinearSVC
 import org.apache.spark.ml.Pipeline
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 import org.apache.spark.ml.feature.{VectorAssembler, VectorIndexer}
@@ -63,7 +63,7 @@ object AdultBaseLinearSupportMachineVector {
 
     val evaluator = new MulticlassClassificationEvaluator()
       .setMetricName("accuracy")
-      .setLabelCol("label")
+      .setLabelCol("sexIndex")
       .setPredictionCol("prediction")
 
     val accuracy = evaluator
