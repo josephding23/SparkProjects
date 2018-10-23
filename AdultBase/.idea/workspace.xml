@@ -2,120 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe5da99-de20-496b-86ca-b39b2e445c54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__bouncycastle_bcmail_jdk14_138_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__bouncycastle_bcprov_jdk14_138_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_wendykierp_JTransforms_3_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lowagie_itext_2_1_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__jfree_jcommon_1_0_16_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__jfree_jfreechart_1_0_13_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_xmlgraphics_xmlgraphics_commons_1_3_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_2_11_1_0_RC2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_1_0_RC2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_viz_2_11_1_0_RC2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__pl_edu_icm_JLargeArrays_1_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseNaiveBayes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_8_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_13_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_13_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/AdultBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AdultBase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NBADataBase/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NBADataBase/.idea/libraries/jars1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NBADataBase/.idea/modules/nbadatabase-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NBADataBase/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NBADataBase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NBADataBase/resources/Players.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NBADataBase/resources/Seasons_Stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NBADataBase/resources/player_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NBADataBase/src/main/scala/NBADataBase/database/BasicStatistics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NBADataBase/src/main/scala/NBADataBase/database/FileOperation.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_test/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_test/.part-00000-39e1d6f6-0d91-4293-be7d-b535e33102ce-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_test/.part-00001-39e1d6f6-0d91-4293-be7d-b535e33102ce-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_test/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_test/part-00000-39e1d6f6-0d91-4293-be7d-b535e33102ce-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_test/part-00001-39e1d6f6-0d91-4293-be7d-b535e33102ce-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_training/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_training/.part-00000-d8691259-722b-47e3-acaa-58b5337bb88b-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_training/.part-00001-d8691259-722b-47e3-acaa-58b5337bb88b-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_training/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_training/part-00000-d8691259-722b-47e3-acaa-58b5337bb88b-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/adult_training/part-00001-d8691259-722b-47e3-acaa-58b5337bb88b-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_test/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_test/.part-00000-8e1a28d9-0995-44d7-9e4f-e311280db715-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_test/.part-00001-8e1a28d9-0995-44d7-9e4f-e311280db715-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_test/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_test/part-00000-8e1a28d9-0995-44d7-9e4f-e311280db715-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_test/part-00001-8e1a28d9-0995-44d7-9e4f-e311280db715-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_training/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_training/.part-00000-fb9434dc-0c00-433e-a725-f4ee97f42d53-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_training/.part-00001-fb9434dc-0c00-433e-a725-f4ee97f42d53-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_training/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_training/part-00000-fb9434dc-0c00-433e-a725-f4ee97f42d53-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/indexed_adult_training/part-00001-fb9434dc-0c00-433e-a725-f4ee97f42d53-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/adultbase-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/adultbase-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/adultbase-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/adultbase-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-adultbase-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00000-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00000.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00000-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00002.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00000-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00003.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00001-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00000.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00001-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00002.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00001-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00003.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00000-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00000.c000.snappy.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00000-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00002.c000.snappy.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00000-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00003.c000.snappy.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00001-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00000.c000.snappy.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00001-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00002.c000.snappy.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00001-ed6b63c7-acb5-4ada-b6b8-61957223da8f_00003.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/.part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-warehouse/race_age_table/part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseClustering.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseClustering.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseFileOperation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseFileOperation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseLinearSupportMachineVector.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseLinearSupportMachineVector.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseStatistics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseStatistics.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/adultbase$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/adultbase$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/adultbase$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/adultbase$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/adultbase_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/adultbase_2.11/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/adultbase_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/adultbase_2.11/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-adultbase_2.11-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RickAndMortyBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RickAndMortyBase/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -136,14 +48,16 @@
     <session id="1527075938">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.58" value="1" />
@@ -158,7 +72,7 @@
           <entry key="project.open.time.82" value="1" />
           <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.94" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -168,8 +82,8 @@
           <entry key="data" value="6" />
           <entry key="names" value="7" />
           <entry key="parquet" value="1" />
-          <entry key="sbt" value="3" />
-          <entry key="scala" value="43" />
+          <entry key="sbt" value="4" />
+          <entry key="scala" value="47" />
           <entry key="test" value="2" />
           <entry key="txt" value="2" />
         </counts>
@@ -179,21 +93,21 @@
           <entry key="CLASS" value="2" />
           <entry key="CSV" value="17" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Scala" value="43" />
-          <entry key="sbt" value="3" />
+          <entry key="Scala" value="47" />
+          <entry key="sbt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="names" value="4" />
           <entry key="sbt" value="64" />
-          <entry key="scala" value="33914" />
+          <entry key="scala" value="34082" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Scala" value="33914" />
+          <entry key="Scala" value="34082" />
           <entry key="sbt" value="64" />
         </counts>
       </usages-collector>
@@ -201,11 +115,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseClustering.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="86" column="51" selection-start-line="86" selection-start-column="51" selection-end-line="86" selection-end-column="51" />
+            <state relative-caret-position="106">
+              <caret line="71" selection-start-line="71" selection-end-line="71" selection-end-column="43" />
               <folding>
                 <element signature="e#28#78#0" expanded="true" />
               </folding>
@@ -214,10 +128,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseRandomTreeRegression.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseFileOperation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1456">
-              <caret line="97" column="63" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
+            <state relative-caret-position="32">
+              <caret line="179" column="28" selection-start-line="179" selection-start-column="28" selection-end-line="179" selection-end-column="28" />
               <folding>
                 <element signature="e#28#57#0" expanded="true" />
               </folding>
@@ -226,28 +149,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseNaiveBayes.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="96">
+              <caret line="6" selection-start-line="6" selection-end-line="16" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/manip/BasicDataManipulation.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseStatistics.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="423">
+              <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
               <folding>
                 <element signature="e#28#57#0" expanded="true" />
               </folding>
@@ -309,9 +232,9 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseLinearSupportMachineVector.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseNaiveBayes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseStatistics.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseFileOperation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseClustering.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseStatistics.scala" />
       </list>
     </option>
   </component>
@@ -335,8 +258,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,18 +270,6 @@
               <item name="AdultBase" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdultBase" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdultBase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdultBase" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="adult_training" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdultBase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdultBase" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="indexed_adult_test_withInfo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AdultBase" type="b2602c69:ProjectViewProjectNode" />
@@ -409,14 +319,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539397940100" />
-    <property name="last_opened_file_path" value="D:/spark-2.3.1-bin-hadoop2.7/examples/src/main/scala/org/apache/spark/examples/ml/LinearSVCExample.scala" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539420010206" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -588,17 +499,20 @@
       <workItem from="1539237261115" duration="13803000" />
       <workItem from="1539261538514" duration="9118000" />
       <workItem from="1539349633564" duration="6400000" />
-      <workItem from="1539384677791" duration="8926000" />
+      <workItem from="1539384677791" duration="14988000" />
+      <workItem from="1539430390918" duration="1316000" />
+      <workItem from="1540089888327" duration="5441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194448000" />
+    <option name="totallyTimeSpent" value="207267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31240544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -620,7 +534,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="14" visible="true" weight="0.75734156" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.61978364" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -715,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/manip/BasicDataManipulation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/spark-2.3.1-bin-hadoop2.7/examples/src/main/scala/org/apache/spark/examples/ml/LinearSVCExample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -744,13 +651,6 @@
     <entry file="file://$PROJECT_DIR$/data/indexed_adult_test/part-00000-79f5c47e-8ea0-43d2-89e5-0321a5d216b8-c000.csv" />
     <entry file="file://$PROJECT_DIR$/data/indexed_adult_training/part-00000-fb9434dc-0c00-433e-a725-f4ee97f42d53-c000.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/manip/SQLManipulation.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseRandomTreeRegression.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="45" selection-start-line="45" selection-end-line="49" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/adult_training/part-00000-c81cf123-dcfc-4698-b323-be1d9b289731-c000.csv" />
     <entry file="file://$PROJECT_DIR$/data/indexed_adult_test_withInfo/part-00001-788e2cb5-e1a7-4618-bd2b-22652b4f6ed4-c000.csv">
       <provider selected="true" editor-type-id="text-editor" />
@@ -775,10 +675,38 @@
     <entry file="file://$PROJECT_DIR$/data/adult_training/part-00001-952598f9-e910-4633-bc52-2d9dcb4009f1-c000.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseNaiveBayes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseRandomTreeRegression.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="16" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/manip/BasicDataManipulation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseClustering.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="86" column="51" selection-start-line="86" selection-start-column="51" selection-end-line="86" selection-end-column="51" />
+        <state relative-caret-position="106">
+          <caret line="71" selection-start-line="71" selection-end-line="71" selection-end-column="43" />
           <folding>
             <element signature="e#28#78#0" expanded="true" />
           </folding>
@@ -787,32 +715,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseFileOperation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1456">
-          <caret line="97" column="63" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
+        <state relative-caret-position="32">
+          <caret line="179" column="28" selection-start-line="179" selection-start-column="28" selection-end-line="179" selection-end-column="28" />
           <folding>
             <element signature="e#28#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseNaiveBayes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/AdultBase/database/AdultBaseStatistics.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="423">
+          <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
           <folding>
             <element signature="e#28#57#0" expanded="true" />
           </folding>

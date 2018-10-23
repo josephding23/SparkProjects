@@ -48,6 +48,8 @@ object AdultBaseClustering {
         .map(defaultAttr.withName)
       val attrGroup = new AttributeGroup("features", attrs.asInstanceOf[Array[Attribute]])
 
+      indexed_table.select("age", "workclassIndex", "educationIndex", "maritial_statusIndex",
+        "occupationIndex", "relationshipIndex", "raceIndex", "sexIndex", "native_countryIndex").show(8)
       val indexed_assembled_table = assembler.transform(indexed_table)
 
       indexed_assembled_table.show(8)
@@ -60,10 +62,14 @@ object AdultBaseClustering {
 
       val model = kmeans.fit(indexed_assembled_table)
       val predictions = model.transform(indexed_assembled_table)
+      println(model.explainParams())
 
       val evaluator = new ClusteringEvaluator()
       val silhouette = evaluator.evaluate(predictions)
+
       println(silhouette)
+
+      model.clusterCenters.foreach(println)
 
       val clusters = model.clusterCenters
         .map(fields => Row(Vectors.dense(fields.toArray.map(num => math.round(num).toDouble))))

@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbe80be1-5462-4961-a43b-23e35a30c993" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jars1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/nbadatabase-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Players.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Seasons_Stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/player_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/Bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/Interactive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/Plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/NBADataBase/database/BasicStatistics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/NBADataBase/database/FileOperation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseClustering.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseClustering.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseFileOperation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseFileOperation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseStatistics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseStatistics.scala" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/NBADataBase$Bar.coverage" NAME="Bar Coverage Results" MODIFIED="1540268257136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1875927055">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.102" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="8" />
+          <entry key="png" value="3" />
+          <entry key="py" value="6" />
+          <entry key="sbt" value="1" />
+          <entry key="scala" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="8" />
+          <entry key="Image" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="6" />
+          <entry key="Scala" value="4" />
+          <entry key="sbt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="csv" value="21" />
+          <entry key="dummy" value="11" />
+          <entry key="py" value="4096" />
+          <entry key="sbt" value="2" />
+          <entry key="scala" value="2479" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSV" value="21" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="4096" />
+          <entry key="Scala" value="2479" />
+          <entry key="sbt" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/python/Plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/python/Bar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Users/lenovo/Anaconda3/Lib/site-packages/matplotlib/figure.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="240" selection-start-line="240" selection-end-line="240" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+        <option value="Scala Script" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>(4, 2</find>
+      <find>(8, 1</find>
+      <find>verticalalignment='center'</find>
+      <find>1, 8</find>
+      <find>bar1</find>
+      <find>bar2</find>
+      <find>bar3</find>
+      <find>bar4</find>
+      <find>bar5</find>
+      <find>bar6</find>
+      <find>bar7</find>
+      <find>bar8</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/resources/player_data.csv" />
+        <option value="$PROJECT_DIR$/src/main/scala/NBADataBase/database/FileOperation.scala" />
+        <option value="$PROJECT_DIR$/data/lebron_data.csv" />
+        <option value="$PROJECT_DIR$/src/main/python/visualize.py" />
+        <option value="$PROJECT_DIR$/src/main/python/Interactive.py" />
+        <option value="$PROJECT_DIR$/src/main/python/Plot.py" />
+        <option value="$PROJECT_DIR$/src/main/scala/NBADataBase/database/BasicStatistics.scala" />
+        <option value="$PROJECT_DIR$/src/main/python/Bar.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="y" value="30" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NBADataBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NBADataBase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NBADataBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NBADataBase" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NBADataBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NBADataBase" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NBADataBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NBADataBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NBADataBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NBADataBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NBADataBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NBADataBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NBADataBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NBADataBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NBADataBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NBADataBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="NBADataBase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NBADataBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NBADataBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="NBADataBase" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540252639718" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SparkProjects\NBADataBase\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Bar">
+    <configuration name="FileOperation" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="NBADataBase.database.FileOperation" />
+      <module name="NBADataBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NBADataBase.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NBADataBase" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/Bar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Interactive" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NBADataBase" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/Interactive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NBADataBase" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/Plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visualize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NBADataBase" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\SparkProjects\NBADataBase\src\main\python\Bar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Interactive" />
+      <item itemvalue="Python.Plot" />
+      <item itemvalue="Python.visualize" />
+      <item itemvalue="Python.Bar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Bar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="NBADataBase" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="nbadatabase [file:/D:/SparkProjects/NBADataBase/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="nbadatabase-build [file:/D:/SparkProjects/NBADataBase/]" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3080179641972" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2721817596" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2125951362" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="E:/Downloads/akka-quickstart-scala" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbe80be1-5462-4961-a43b-23e35a30c993" name="Default Changelist" comment="" />
+      <created>1540089685691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540089685691</updated>
+      <workItem from="1540089702351" duration="6486000" />
+      <workItem from="1540248306310" duration="2248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9727000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34039333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3279483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14701131" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32921174" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32921174" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="15" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="sbt" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="R Packages" order="11" />
+      <window_info anchor="right" id="R Graphics" order="12" />
+      <window_info anchor="right" id="SciView" order="13" weight="0.65960664" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34039333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3279483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4667697" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32921174" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32921174" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="15" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="sbt" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="R Packages" order="11" />
+      <window_info anchor="right" id="R Graphics" order="12" />
+      <window_info anchor="right" id="SciView" order="13" weight="0.69515884" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseFileOperation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/player_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="77" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/LeBron_Stats/part-00008-da9db763-dc3b-41cb-bc83-34ef9dd76530-c000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/LeBron_Stats/part-00010-da9db763-dc3b-41cb-bc83-34ef9dd76530-c000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/LeBron_Stats/part-00005-da9db763-dc3b-41cb-bc83-34ef9dd76530-c000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/LeBron_Stats/part-00003-da9db763-dc3b-41cb-bc83-34ef9dd76530-c000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/Interactive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NBADataBase/database/FileOperation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NBADataBase/database/BasicStatistics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Players.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lebron_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="69" selection-start-column="69" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Seasons_Stats.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="221" selection-end-column="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/lenovo/Anaconda3/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/Plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lebron_statsfig.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/Bar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NBADataBase</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jars1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

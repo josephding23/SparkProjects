@@ -30,6 +30,8 @@ object  AdultBaseStatistics {
       .load("./data/adult_training")
       .persist()
 
+    df_training.show()
+
     val df_indexed = spark.read.format("csv")
       .option("sep", ",")
       .option("header", "true")
@@ -94,7 +96,6 @@ object  AdultBaseStatistics {
 
     val figure = Figure()
     val p0 = figure.subplot(0)
-    p0 += hist (marriage_data)
     p0.title_=("Marriage")
   }
 }

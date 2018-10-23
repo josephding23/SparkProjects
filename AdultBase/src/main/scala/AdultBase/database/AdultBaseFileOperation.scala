@@ -173,7 +173,6 @@ object AdultBaseFileOperation {
     df_training.write.format("csv")
       .option("header", "true")
       .option("sep", ",")
-      .option("nanValue", "unknown")
       .mode("ignore")
       .save("./data/adult_training")
 
