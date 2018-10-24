@@ -2,37 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe80be1-5462-4961-a43b-23e35a30c993" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jars1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/nbadatabase-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Players.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Seasons_Stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/player_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/python/Bar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/python/Interactive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/python/Plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/python/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/NBADataBase/database/BasicStatistics.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/NBADataBase/database/FileOperation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/.part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00000-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00000.c000.snappy.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00002.c000.snappy.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/spark-warehouse/race_age_table/part-00001-664952ae-26b0-41cd-a023-09baec4bc7e3_00003.c000.snappy.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseClustering.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseClustering.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseFileOperation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseFileOperation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseStatistics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../AdultBase/src/main/scala/AdultBase/database/AdultBaseStatistics.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jars1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jars1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/NBADataBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/NBADataBase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/NBADataBase/database/BasicStatistics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/NBADataBase/database/BasicStatistics.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,9 +19,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NBADataBase$Bar.coverage" NAME="Bar Coverage Results" MODIFIED="1540268257136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python" />
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -56,32 +28,33 @@
     <session id="-1875927055">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="8" />
+          <entry key="csv" value="9" />
           <entry key="png" value="3" />
           <entry key="py" value="6" />
           <entry key="sbt" value="1" />
-          <entry key="scala" value="5" />
+          <entry key="scala" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="8" />
+          <entry key="CSV" value="9" />
           <entry key="Image" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="6" />
-          <entry key="Scala" value="4" />
+          <entry key="Scala" value="6" />
           <entry key="sbt" value="1" />
         </counts>
       </usages-collector>
@@ -91,7 +64,7 @@
           <entry key="dummy" value="11" />
           <entry key="py" value="4096" />
           <entry key="sbt" value="2" />
-          <entry key="scala" value="2479" />
+          <entry key="scala" value="2544" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -99,7 +72,7 @@
           <entry key="CSV" value="21" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Python" value="4096" />
-          <entry key="Scala" value="2479" />
+          <entry key="Scala" value="2544" />
           <entry key="sbt" value="2" />
         </counts>
       </usages-collector>
@@ -108,28 +81,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/python/Plot.py">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/NBADataBase/database/BasicStatistics.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="61">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/python/Bar.py">
+        <entry file="file://$PROJECT_DIR$/data/lebron_data.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
-              <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+            <state>
+              <caret selection-end-line="8" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Users/lenovo/Anaconda3/Lib/site-packages/matplotlib/figure.py">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/NBADataBase/database/FileOperation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="240" selection-start-line="240" selection-end-line="240" />
+            <state relative-caret-position="448">
+              <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -169,13 +142,13 @@
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/resources/player_data.csv" />
-        <option value="$PROJECT_DIR$/src/main/scala/NBADataBase/database/FileOperation.scala" />
         <option value="$PROJECT_DIR$/data/lebron_data.csv" />
         <option value="$PROJECT_DIR$/src/main/python/visualize.py" />
         <option value="$PROJECT_DIR$/src/main/python/Interactive.py" />
         <option value="$PROJECT_DIR$/src/main/python/Plot.py" />
-        <option value="$PROJECT_DIR$/src/main/scala/NBADataBase/database/BasicStatistics.scala" />
         <option value="$PROJECT_DIR$/src/main/python/Bar.py" />
+        <option value="$PROJECT_DIR$/src/main/scala/NBADataBase/database/FileOperation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/NBADataBase/database/BasicStatistics.scala" />
       </list>
     </option>
   </component>
@@ -197,6 +170,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,14 +236,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540252639718" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540305574186" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -294,9 +267,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Bar">
-    <configuration name="FileOperation" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="NBADataBase.database.FileOperation" />
+  <component name="RunManager" selected="Application.BasicStatistics">
+    <configuration name="BasicStatistics (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="BasicStatistics" />
+      <module name="NBADataBase" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicStatistics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="NBADataBase.database.BasicStatistics" />
       <module name="NBADataBase" />
       <extension name="coverage">
         <pattern>
@@ -307,28 +287,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="Bar" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NBADataBase" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/Bar.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="Interactive" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NBADataBase" />
@@ -397,14 +355,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Interactive" />
-      <item itemvalue="Python.Plot" />
-      <item itemvalue="Python.visualize" />
-      <item itemvalue="Python.Bar" />
+      <item itemvalue="Application.BasicStatistics" />
+      <item itemvalue="Application.BasicStatistics (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Bar" />
+        <item itemvalue="Application.BasicStatistics" />
+        <item itemvalue="Application.BasicStatistics (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -459,16 +416,17 @@
       <updated>1540089685691</updated>
       <workItem from="1540089702351" duration="6486000" />
       <workItem from="1540248306310" duration="2248000" />
+      <workItem from="1540271584399" duration="5503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9727000" />
+    <option name="totallyTimeSpent" value="15230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34039333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34568834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -478,7 +436,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3279483" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14701131" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17619784" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -595,31 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/NBADataBase/database/FileOperation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/NBADataBase/database/BasicStatistics.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/Players.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/lebron_data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="69" selection-start-column="69" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -651,6 +588,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
           <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NBADataBase/database/FileOperation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NBADataBase/database/BasicStatistics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lebron_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -712,6 +670,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

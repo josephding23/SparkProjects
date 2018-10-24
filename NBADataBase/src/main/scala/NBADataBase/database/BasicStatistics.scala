@@ -22,6 +22,8 @@ object BasicStatistics {
         .load("./resources/Seasons_Stats.csv")
         .persist()
 
+      season_stats.show(10)
+
       val lebron_stats = season_stats
         .withColumn("AveragePoints", col = bround($"Points" / $"Games", 3))
         .withColumn("AverageRebounds", col = bround($"TotalRebounds" / $"Games", 3))
@@ -32,6 +34,8 @@ object BasicStatistics {
         .select("Year", "Player", "Age", "Games", "Team",
           "AveragePoints", "AverageRebounds", "AverageAssists", "AverageSteals", "AverageBlocks",
           "FieldGoalPercentage", "ThreePointPercentage")
+
+      lebron_stats.show(10)
 
       val avePointsList = lebron_stats.select("AveragePoints").collect()
         .map(_(0)).toList
@@ -51,6 +55,10 @@ object BasicStatistics {
         .map(_(0)).toList
       val yearList = lebron_stats.select("Year").collect()
         .map(_(0)).toList
+
+      println(avePointsList)
+      println(aveReboundsList)
+      println(aveAssistsList)
 
       val writer = new PrintWriter(new File("./data/lebron_data.csv" ))
       writer.write(yearList.mkString(",") + "\r\n")
