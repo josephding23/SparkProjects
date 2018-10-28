@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import csv
 
 fontTitle = {
         'family': 'fantasy',
@@ -12,7 +13,7 @@ fontHead = {
         'family': 'sans-serif',
         'color':  '#FFD700',
         'weight': 'demibold',
-        'size': 30
+        'size': 34
 }
 
 fontY = {
@@ -30,7 +31,16 @@ fontNum = {
     'size': 6.5
     }
 
+layout = {
+    'pad': 5
+}
+
+subplotDict = {
+    'adjustable': 'datalim'
+}
+
 lebron_info = open("D:/SparkProjects/NBADataBase/data/lebron_data.csv")
+
 yearList = [int(i) for i in lebron_info.readline().split(',')]
 pointsList = [float(i) for i in lebron_info.readline().split(',')]
 reboundsList = [float(i) for i in lebron_info.readline().split(',')]
@@ -41,11 +51,11 @@ gamesList = [float(i) for i in lebron_info.readline().split(',')]
 fieldPercentList = [float(i) for i in lebron_info.readline().split(',')]
 threePercentList = [float(i) for i in lebron_info.readline().split(',')]
 
-fig = plt.figure(figsize=[20, 10], facecolor='#CD00CD')
+fig = plt.figure(figsize=[26, 10], facecolor='#CD00CD', tight_layout=layout)
 fig.suptitle("LeBron James's Statistics 2003-2018", fontstyle='italic',
              fontweight='bold', fontsize=30, color='#FFD700',
              horizontalalignment='center', verticalalignment='top')
-axs = fig.subplots(2, 4)
+axs = fig.subplots(2, 4, subplot_kw=subplotDict)
 
 axs[0][0].set_title('Average Points', fontdict=fontTitle)
 axs[0][0].bar(yearList, pointsList, hatch='+', color='#FFD700', edgecolor='#8B0A50')
